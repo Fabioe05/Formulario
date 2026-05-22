@@ -1,4 +1,4 @@
-const PASSWORD_REGEX = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,16}$/;
+const PASSWORD_REGEX = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,24}$/;
 const USERNAME_REGEX = /^[a-zA-Z0-9]{5,16}$/;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const NUMBER_REGEX = /^\d{7,15}$/;
