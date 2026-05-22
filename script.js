@@ -106,8 +106,8 @@ form.addEventListener("submit", (event) => {
     phone: `${phoneCode.innerHTML} ${phoneInput.value}`,
     password: passwordInput.value,
   };
+  console.log(user);
   alert(
     `Usuario creado exitosamente: \n Username: ${user.username} \n Email: ${user.email} \n Number: ${user.phone}`,
   );
-  location.reload();
 });
